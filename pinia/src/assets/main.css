@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+body {
+  background: #f2f2f2;
+  color: #444;
+  margin: 0;
+}
+body * {
+  font-family: "Poppins";
+}
+
+/* header */
+header {
+  text-align: center;
+  background: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 60px;
+  transform: rotate(-10deg);
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  padding-top: 25px;
+  margin-left: 15px;
+  color: #777;
+  transform: rotate(2deg);
+}
+
+/* Task list */
+.task-list {
+  max-width: 640px;
+  margin: 20px auto;
+}
+
+.task {
+  padding: 6px 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task h3,
+.task .icons {
+  display: inline-block;
+}
+
+.task .icons {
+  text-align: right;
+}
+
+.task i {
+  font-size: 1.4rem;
+  margin-left: 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+.task i:hover {
+  color: #dbd4d4;
+}
+
+/* Filter */
+
+.filter,
+.add {
+  width: 640px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 2px solid #555;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.noContentTyped {
+  color: red;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extraBtn {
+  background-color: yellow;
+  border: 0.3px solid gray;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.bg-red {
+  color: red !important;
+}
+
+.loading span {
+  color: gray;
+  font-size: 1rem;
+}
+
+.loading {
+  text-align: center;
+}
+
+input {
+  border: none;
+  padding: 0.3rem 0.3rem;
+}
